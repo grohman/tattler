@@ -13,10 +13,10 @@ server.setup(function(runningApp) {
   // runningApp.engine('j2', require('swig').renderFile);
   
   var socketio = require('socket.io')(runningApp.http);
-  var tattler = require('tattler');//(socketio);
+  var tattler = require('tattler');
   tattler.socket(socketio);
 
-  runningApp.use('/hello', require('hello')); // attach to sub-route
+
   runningApp.use('/tattler', tattler);
   runningApp.use(require('routes')); // attach to root route
   
