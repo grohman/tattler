@@ -1,1 +1,1464 @@
 
+4 May 12:46:59 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #1
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:01 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #2
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:03 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #3
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:06 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #4
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:08 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #5
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:10 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #6
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:12 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #7
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:14 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #8
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:17 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #9
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:19 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #10
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:22 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #11
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:24 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #12
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:26 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #13
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:28 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #14
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:30 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #15
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:33 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #16
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:35 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #17
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:37 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #18
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:40 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #19
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:42 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #20
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:44 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #21
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:46 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #22
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:48 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #23
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:51 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #24
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:53 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #25
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:55 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #26
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:57 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #27
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:47:59 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #28
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:02 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #29
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:04 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #30
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:07 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #31
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:09 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #32
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:12 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #33
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'socket.io-redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.Tattler (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:75:17)
+    at EventEmitter.module.exports [as socket] (/home/vagrant/Code/tattler/lib/tattler/models/tattler.js:137:14)
+    at /home/vagrant/Code/tattler/server.js:17:11
+    at Object.exports.setup (/home/vagrant/Code/tattler/node_modules/nodebootstrap-server/app.js:40:3)
+    at Object.<anonymous> (/home/vagrant/Code/tattler/server.js:3:8)
+    at Module._compile (module.js:456:26)
+4 May 12:48:15 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'redis'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/usr/lib/node_modules/socket.io-redis/index.js:7:13)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #34
+
+/usr/lib/node_modules/socket.io-redis/node_modules/redis/lib/parser/javascript.js:191
+});
+^
+SyntaxError: Unexpected token }
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/usr/lib/node_modules/socket.io-redis/node_modules/redis/index.js:33:14)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+4 May 12:48:20 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+4 May 12:48:28 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:20] [ 'Worker taking too long to start', [length]: 1 ]
+4 May 12:48:29 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+5 May 10:42:11 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+5 May 10:42:13 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+5 May 10:54:53 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+5 May 10:54:55 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+5 May 11:43:39 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+5 May 11:43:41 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+5 May 17:15:21 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+5 May 17:15:25 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+new client nJusOzT2_Y3EiUJnAAAA kvlJDwYV45B2VoW3cjJF5Gf3QcWoFLux
+new client nJusOzT2_Y3EiUJnAAAA kvlJDwYV45B2VoW3cjJF5Gf3QcWoFLux
+join kvlJDwYV45B2VoW3cjJF5Gf3QcWoFLux to /tHiIyvYfA8PpQrAQChWU/datatables_languages
+join kvlJDwYV45B2VoW3cjJF5Gf3QcWoFLux to /tHiIyvYfA8PpQrAQChWU/datatables_languages
+error: Forever detected script exited with code: null
+5 May 19:41:59 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+5 May 19:42:04 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+new client eBcGv_wlva8RbiZfAAAA m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+new client eBcGv_wlva8RbiZfAAAA m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+join m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv to /mobecan/datatables_applications
+new client 0nMKd9n_FNyYvgbkAAAB m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+new client 0nMKd9n_FNyYvgbkAAAB m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+join m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv to /mobecan/datatables_applications
+new client QtTflU7rxg1Hye-TAAAC m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+new client QtTflU7rxg1Hye-TAAAC m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv
+join m9KDTdjEYtFFwovTaMA2VyG4DImKw9zv to /mobecan/datatables_applications
+error: Forever detected script exited with code: null
+6 May 13:59:47 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+6 May 13:59:50 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+new client zWqoNaXeg9SC01V0AAAA QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+new client zWqoNaXeg9SC01V0AAAA QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+join QnEL6K4nEi8x09auhkTzSSD7OmszH6f8 to /lulYBrGMDX3fvnFIuMku/datatables_applications
+new client 7k5Ce9cW6oN_JjEUAAAB QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+new client 81NfVlZuv_UjGNRYAAAC QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+new client 81NfVlZuv_UjGNRYAAAC QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+join QnEL6K4nEi8x09auhkTzSSD7OmszH6f8 to /lulYBrGMDX3fvnFIuMku/datatables_languages
+new client Y1MhCzCCfY_BQcEZAAAD QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+new client 686El5vtLu1c4IhqAAAE QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+new client 686El5vtLu1c4IhqAAAE QnEL6K4nEi8x09auhkTzSSD7OmszH6f8
+join QnEL6K4nEi8x09auhkTzSSD7OmszH6f8 to /legalforum15/datatables_applications
+Redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+Redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+
+
+events.js:72
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+        throw er; // Unhandled 'error' event
+              ^
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:185:24)
+    at Socket.<anonymous> (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:95:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:440:14
+    at process._tickCallback (node.js:419:13)
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:185:24)
+    at Socket.<anonymous> (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:95:14)
+    at Socket.emit (events.js:95:17)
+    at net.js:440:14
+    at process._tickCallback (node.js:419:13)
+error: Forever detected script exited with code: 8
+error: Script restart attempt #1
+7 May 00:03:14 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+13 May 12:58:50 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+13 May 12:58:56 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+new client ZnzvzlyvZ89OH326AAAA x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client EtHFzo6U-fftBGZsAAAB x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client hBLJ6CDOKbfF8ujwAAAC x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client HOz-QT3Z1NIkyq5zAAAD x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 1_0ET57wtiHN1exNAAAE x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client ky8czvjPH3nIXb-XAAAF x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client I0KqpBgLjIT2KEBhAAAG x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client JI8LcXX5YLM1R6CXAAAH x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client JTWw4hO9Jej9raTlAAAI x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client Q6uImiUo4q41CrH0AAAJ x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client jWle0J9PvMw92C-oAAAK x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client LYd270oa35HFhZiQAAAL x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client bBIQIEILcAkSR7CQAAAM x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 64KadK2mMoWdxwuMAAAN x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client hW2_-zAaJy5_TtoYAAAO x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client EryTjbViK6LBNbHOAAAP x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client MN9eMSlolSljZdtcAAAQ x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 4VOWmFDicU8h1GJSAAAR x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 25LNZs_bIDJIf2MlAAAS x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client QwuuZINfgdNYY04jAAAT x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 9ml4-qkraOKZ9oMiAAAU x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client g4u0rgarZnxyshHdAAAV x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client fYK2BQznY8OrMagcAAAW x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client PgVib8cXcXhjsW7DAAAX x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client qnHfdBWtRUigw5JoAAAY x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client qnHfdBWtRUigw5JoAAAY x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+join x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client AKTio8wH_YvDCpm2AAAZ x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client iePBEWHO6i8bhSS-AAAa x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+not found tattler:access:x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ:datatables_positions
+new client iePBEWHO6i8bhSS-AAAa x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+join x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client EwkUVdiaJyLEmoGaAAAb x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+not found tattler:access:x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ:datatables_positions
+new client EwkUVdiaJyLEmoGaAAAb x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+join x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 3vpzxKnpcJQjfo_RAAAc x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client imupocT7OTQK2gtVAAAd x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client imupocT7OTQK2gtVAAAd x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+join x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 0h_cpTDkPkfcottGAAAe x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client Ndb1OKrwYzrJ9vnvAAAf x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client NOUSkAIi1RJiDQcgAAAg x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 4gbLo5Besn9IAcZYAAAh x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+new client 4gbLo5Besn9IAcZYAAAh x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ
+join x8O7NSRosYz8LHJpzZwNeMf8IlFFF0PQ to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 943sulTtxzX58I49AAAi 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client 943sulTtxzX58I49AAAi 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client wP8QsrZwposyRs-CAAAj 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client wP8QsrZwposyRs-CAAAj 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_languages_entries
+new client smf_H5ZeM4DNLYLAAAAk 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client H2wg52lVICGX3dbxAAAl 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client H2wg52lVICGX3dbxAAAl 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client N61FIo67v1SUYh5OAAAm 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client N61FIo67v1SUYh5OAAAm 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client DRTrkeF-YM4ifLQKAAAn 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client DRTrkeF-YM4ifLQKAAAn 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client J5k5hcOyCR7ZR_skAAAo 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client J5k5hcOyCR7ZR_skAAAo 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client RjFBBxuVYbw6Ud-4AAAp 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client RjFBBxuVYbw6Ud-4AAAp 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client mH2uUVEbDt8QEadBAAAq 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client mH2uUVEbDt8QEadBAAAq 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client a4qP5eS833r6JZW3AAAr 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client XoCcC8JVdGGraDCaAAAs 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client SP-J7j5gsGyNu0r4AAAt 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client sohEyTkZCWs-mJDWAAAu 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client sohEyTkZCWs-mJDWAAAu 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client V6BNCiNrxOcVj74mAAAv 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client V6BNCiNrxOcVj74mAAAv 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client qCm0BLr54-wW2G8AAAAw 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client qCm0BLr54-wW2G8AAAAw 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 2pyUUeO-6XE17LW8AAAx 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client 2pyUUeO-6XE17LW8AAAx 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 06UY5LTSt7WAiwhyAAAy 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client 06UY5LTSt7WAiwhyAAAy 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client mYApZSa0UI_4duWmAAAz 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client mYApZSa0UI_4duWmAAAz 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client FwUze0zEbzzlAcrhAAA0 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client FwUze0zEbzzlAcrhAAA0 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client Vrb1aAyz9d2Uw6tbAAA1 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client Vrb1aAyz9d2Uw6tbAAA1 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client 1vWPPpMi6G3aEPCYAAA2 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client 1vWPPpMi6G3aEPCYAAA2 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client eh6DooKClY3qv3TPAAA3 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client eh6DooKClY3qv3TPAAA3 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client lSTzKTXZwuhfKh3gAAA4 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client lSTzKTXZwuhfKh3gAAA4 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client By4sB2wx2QRxTnXyAAA5 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client By4sB2wx2QRxTnXyAAA5 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client c5rQME3qZpb6ItU_AAA6 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client c5rQME3qZpb6ItU_AAA6 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client bWiPP_uheAn1YAIjAAA7 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client bWiPP_uheAn1YAIjAAA7 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client KQGRPvdkMmpnkfO5AAA8 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+not found tattler:access:2LehAgqbauvVqGqPebsgSoz213Jby7Gm:datatables_positions
+new client KQGRPvdkMmpnkfO5AAA8 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+new client DEwhf1RZZrN3Dz0IAAA9 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+new client DEwhf1RZZrN3Dz0IAAA9 2LehAgqbauvVqGqPebsgSoz213Jby7Gm
+join 2LehAgqbauvVqGqPebsgSoz213Jby7Gm to /jgDUYEaLaegYQeL6zrjR/datatables_positions
+Redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:185:24)
+    at Socket.<anonymous> (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:95:14)
+    at Socket.emit (events.js:107:17)
+    at net.js:459:14
+    at process._tickCallback (node.js:355:11)
+Redis error Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED
+14 May 15:30:25 - WARNING  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:44] The worker #1 has disconnected
+14 May 15:30:25 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:34] [ 'The worker #1 has exited with exitCode 1', [length]: 1 ]
+14 May 15:30:25 - WARNING  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:38] Worker #1 did not commit suicide, restarting
+events.js:85
+      throw er; // Unhandled 'error' event
+            ^
+Error: Redis connection to localhost:6379 failed - connect ECONNREFUSED
+    at RedisClient.on_error (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:185:24)
+    at Socket.<anonymous> (/home/vagrant/Code/tattler/node_modules/socket.io-redis/node_modules/redis/index.js:95:14)
+    at Socket.emit (events.js:107:17)
+    at net.js:459:14
+    at process._tickCallback (node.js:355:11)
+error: Forever detected script exited with code: 1
+error: Script restart attempt #1
+20 May 15:00:01 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+20 May 15:00:04 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+new client upiSoPiiUP9QryYOAAAA zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+new client upiSoPiiUP9QryYOAAAA zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+join zQapwqhYXbcymabt5ObWFZZRQsJqorlX to /Ih0IDBzWtgIfPI4oIPZM/datatables_languages
+new client vZ4gWv2SY6Z_DAJyAAAB zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+not found tattler:access:zQapwqhYXbcymabt5ObWFZZRQsJqorlX:datatables_languages
+new client vZ4gWv2SY6Z_DAJyAAAB zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+join zQapwqhYXbcymabt5ObWFZZRQsJqorlX to /Ih0IDBzWtgIfPI4oIPZM/datatables_languages
+new client 8rlY9zMEBT77A_MfAAAC zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+not found tattler:access:zQapwqhYXbcymabt5ObWFZZRQsJqorlX:datatables_languages
+new client 8rlY9zMEBT77A_MfAAAC zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+join zQapwqhYXbcymabt5ObWFZZRQsJqorlX to /Ih0IDBzWtgIfPI4oIPZM/datatables_languages
+new client brw-iplw9Vr7PeOFAAAD zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+new client brw-iplw9Vr7PeOFAAAD zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+new client kN4X_LcUFYt8eeLeAAAE zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+new client kN4X_LcUFYt8eeLeAAAE zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+join zQapwqhYXbcymabt5ObWFZZRQsJqorlX to /Ih0IDBzWtgIfPI4oIPZM/datatables_languages
+new client 5x4doJ5yMtGd7LH4AAAF zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+not found tattler:access:zQapwqhYXbcymabt5ObWFZZRQsJqorlX:datatables_languages
+new client 5x4doJ5yMtGd7LH4AAAF zQapwqhYXbcymabt5ObWFZZRQsJqorlX
+join zQapwqhYXbcymabt5ObWFZZRQsJqorlX to /Ih0IDBzWtgIfPI4oIPZM/datatables_languages
+new client vA4Bk5j_jH0fJEkbAAAG MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client ELygWvrQxn-JB_JZAAAH MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 2qwfsXGA-JQ30cveAAAI MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client bCGRKofxN89E6jjuAAAJ MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client bJxwXXadk2wy-yFmAAAK MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client cmzYjtYRN6Y9dtzdAAAL MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 2FqDF01P56b2JTvLAAAM MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client gah-RbCa6N-qXjTZAAAN MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client UBMrdiQ4GSDUSqf8AAAO MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 4G95lyxwjYEtDf4uAAAP MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client _dEFMZO4DP7CPPVvAAAQ MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client bmVtPJd2LzjS1wyDAAAR MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client BeuzobzpXwAlvq3lAAAS MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client cgP_d-V6Dh5EOV-dAAAT MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 5OKzEUkXF03R2i0FAAAU MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client vIF1_T_YeD_PEMqCAAAV MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client fcpUzluLoS_d6sL6AAAW MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client OTKEH4OcZ5RFXTsGAAAX MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client OTKEH4OcZ5RFXTsGAAAX MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client BBrNKI-ODehiunFBAAAY MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client gjnU7ZP98eaWPuvaAAAZ MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client gjnU7ZP98eaWPuvaAAAZ MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client 04Uu-mucS5yWE90MAAAa MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client DAdbtX43GdJJ_TXuAAAb MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client Q17pFLaX_Px2ZUk3AAAc MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client PfrGlZyyVUEid8VKAAAd MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client PfrGlZyyVUEid8VKAAAd MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client 5oUb9OKFLq3QohTIAAAe MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client sH4-aypzQdxLA0VjAAAf MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client _rW-O9HuRnZ0BseQAAAg MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client e54rXhe6KRTIJHhnAAAh MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client vKVbfGgoigaS8y6CAAAi MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client JMAJqso9pWAszI9RAAAj MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client JMAJqso9pWAszI9RAAAj MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client sllMkIEj2PBUWliiAAAk MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client ZX2Tv1XW7ZxRiWI5AAAl MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client xgf6n0Jg6Sl0PUSbAAAm MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client -xPVmA-1isjbX3ylAAAn MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client B01hfGTVf5Cr1ppIAAAo MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client XYHQwILwdaKeuLDTAAAp MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client Ry493AvTzqmu2iQeAAAq MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client n_TMTWKal378ikwOAAAr MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client roZCuj2MHS_hcxrOAAAs MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client roZCuj2MHS_hcxrOAAAs MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client V1qQtyqngCYw0w-ZAAAt MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client wwOzlOWE32H-TK0WAAAu MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client wwOzlOWE32H-TK0WAAAu MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client ZAs-2Mj0YVOxCJPnAAAv MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 99HHw7hF2C3BymkmAAAw MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client 99HHw7hF2C3BymkmAAAw MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+new client 7fePLBl3jfh-LMLxAAAx MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client ytueOu5Fen8ZgepfAAAy MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client LpEqFn6fFI3q2IkDAAAz MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+new client LpEqFn6fFI3q2IkDAAAz MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC
+join MNINLHrSCNViuy3t5oc80ckB2Mv2HhPC to /9Z5WlSMxOcblJbhBBWjc/datatables_positions
+error: Forever detected script exited with code: null
+20 May 19:19:48 - NOTICE  [node_modules/nodebootstrap-server/app.js:35] Express server instance listening on port 58008
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+error: Forever detected script exited with code: null
+20 May 19:30:09 - NOTICE  [node_modules/nodebootstrap-server/app.js:35] Express server instance listening on port 58008
+error: Forever detected script exited with code: null
+20 May 19:37:43 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+20 May 19:37:47 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #2 listening on port: 58008
+20 May 19:37:47 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+20 May 20:57:24 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+20 May 20:57:26 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+20 May 20:57:26 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #2 listening on port: 58009
+error: Forever detected script exited with code: null
+20 May 20:58:04 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+20 May 20:58:07 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:20] [ 'Worker taking too long to start', [length]: 1 ]
+20 May 20:58:07 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:20] [ 'Worker taking too long to start', [length]: 1 ]
+20 May 20:58:08 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #2 listening on port: 58009
+20 May 20:58:08 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
+error: Forever detected script exited with code: null
+20 May 20:58:26 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:8] Starting app in clustered mode
+20 May 20:58:29 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:20] [ 'Worker taking too long to start', [length]: 1 ]
+20 May 20:58:29 - ERROR  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:20] [ 'Worker taking too long to start', [length]: 1 ]
+20 May 20:58:29 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #2 listening on port: 58009
+20 May 20:58:29 - NOTICE  [node_modules/nodebootstrap-server/node_modules/nodebootstrap-clustering/clustering.js:25] Worker #1 listening on port: 58008
