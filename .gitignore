@@ -11,4 +11,3 @@ public/bower_components
 config/runtime.json
 config/local.*
 /node_modules
-/logs
