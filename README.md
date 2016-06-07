@@ -7,10 +7,16 @@
 ## Tattler
 # Backend
 1) git clone https://github.com/grohman/tattler && cd tattler
+
 2) ./setup.sh
+
 3) ./bin/start.sh
+
 4) cp tattler.nginx.txt /etc/nginx/sites-enabled/tattler.app
+
 5) /etc/init.d/nginx restart
+
+
 
 ## License
 
