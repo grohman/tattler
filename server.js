@@ -1,16 +1,9 @@
 var conf = require('config');
-var cpus = conf['app']['numCpus'];
-
-if(cpus > 1 && process.env.NODE_CLUSTERED == 1) {
-	var cluster = require('cluster');
-	if(cluster.isWorker){
-  		conf['app']['port']=parseInt(conf['app']['port']) - 1 + parseInt(cluster.worker.id);
-	} else {
-    	for (var i = 1; i < cpus; i++) {
-        	cluster.fork();
-    	}
-	}
+var cluster = require('cluster');
+if(cluster.isWorker){
+	conf['app']['port']=parseInt(conf['app']['port']) - 1 + parseInt(cluster.worker.id);
 }
+
 
 var server = require('nodebootstrap-server');
 
