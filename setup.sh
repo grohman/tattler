@@ -1,11 +1,7 @@
 #!/bin/bash
-npm install supervisor -g
-npm install bower -g
-rm -rf ./bin
-mv scripts bin
-rm -f butler.sh
-rm -f package.json
-mv package.json.skeleton package.json
+sudo npm install supervisor -g
+sudo npm install bower -g
+sudo npm install forever -g
 npm install
 bower install
 chmod u+x ./bin/start.sh
