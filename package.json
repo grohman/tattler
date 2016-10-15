@@ -3,45 +3,59 @@
   "private": true,
   "description": "",
   "author": "",
-  "license": {
-    "type": "MIT",
-    "url": ""
-  },
+  "license": "UNLICENSE",
   "main": "./server.js",
   "repository": {
     "type": "git",
     "url": ""
   },
   "engines": {
-    "node": ">=0.8.8"
+    "node": ">=0.10.8"
   },
   "dependencies": {
+    "app-module-path": "^1.0.4",
+    "body-parser": "^1.14.1",
     "config": "*",
+    "consolidate": "^0.14.0",
     "express": "^4.11.0",
-    "hbs": "3.x",
+    "glob": "^7.0.0",
+    "hbs": "^4.0",
+    "lodash": "^4.3.0",
     "metalogger": "*",
-    "nodebootstrap-server": "1.5.0",
-    "redis": "^0.12.1",
-    "socket.io": "~1.3.5",
-    "socket.io-redis": "^0.1.4",
-    "underscore": "^1.7.0",
-    "yaml": "*"
+    "nodebootstrap-htmlapp": "*",
+    "nodebootstrap-server": "*",
+    "yaml": "*",
+    "socket.io": "latest",
+    "socket.io-redis": "latest"
   },
   "devDependencies": {
     "after": "^0.8.1",
-    "istanbul": "^0.3.2",
-    "mocha": "^2.1.0",
-    "chai": "^1.9.1",
-    "should": "^4.4.4",
+    "istanbul": "^0.4.2",
+    "mocha": "^3.0.0",
+    "chai": "^3.5.0",
+    "should": "^10.0.0",
     "jshint": "^2.5.x",
-    "commander": "^2.6.0",
-    "glob": "^4.3.2"
+    "nock": "^8.0.0",
+    "sinon": "^1.17.3",
+    "supertest": "^2.0.0"
   },
   "scripts": {
-    "prepublish": "npm prune",
-    "test": "mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/",
+    "start": "./bin/start.sh",
+    "dev": "./bin/dev_start.sh",
+    "docker-start": "docker-compose run -d -p 3000 app node server.js",
+    "docker-build": "docker-compose build --force-rm --no-cache --pull",
+    "docker-dev": "docker-compose up -d",
+    "docker-dev-start": "nodemon -L -e js,coffee,jade,handlebars server.js",
+    "docker-clean-up": "npm run docker-stop && npm run docker-build && npm run docker-up",
+    "docker-stop": "docker-compose down && docker-compose rm -f",
+    "docker-restart": "docker-compose restart",
+    "docker-install-package": "docker-compose run app npm install --save",
+    "docker-test": "docker-compose run app npm test",
+    "docker-test-cov": "docker-compose run app npm run test-cov",
+    "logs": "docker-compose logs",
+    "test": "mocha --bail test/ test/acceptance/",
     "pretest": "jshint lib test",
-    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/",
-    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/"
+    "test-cov": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- --reporter dot test/ test/acceptance/",
+    "test-travis": "istanbul cover _mocha --report lcovonly -- test/ test/acceptance/"
   }
 }

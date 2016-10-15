@@ -1,20 +1,17 @@
+// @see: https://gist.github.com/branneman/8048520
 var conf = require('config');
 var cluster = require('cluster');
 if(cluster.isWorker){
-	conf['app']['port']=parseInt(conf['app']['port']) - 1 + parseInt(cluster.worker.id);
+    conf['app']['port']=parseInt(conf['app']['port']) - 1 + parseInt(cluster.worker.id);
 }
 
+require('app-module-path').addPath(__dirname + '/lib');
 
-var server = require('nodebootstrap-server');
+var server = require('nodebootstrap-server')
+  , appConfig = require('./appConfig')
+  , app    = require('express')();
 
-server.setup(function(runningApp) {
-  runningApp.set('view engine', 'handlebars');
-  runningApp.engine('handlebars', require('hbs').__express); 
 
-  var sio = require('socket.io');
-  var tattler = require('tattler');
-  tattler.socket(sio(runningApp.http));
-  
-  runningApp.use('/tattler', tattler);
-  runningApp.use(require('routes'));  
-});
+app = require('nodebootstrap-htmlapp').setup(app);
+
+server.setup(app, appConfig.setup);
