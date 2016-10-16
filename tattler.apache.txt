@@ -1,0 +1,16 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName tattler.app
+
+    ErrorLog "/var/log/apache2/tattler_error.log"
+    LogLevel debug
+    CustomLog "/var/log/apache2/tattler_access.log" combined
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI}  ^/		           [NC]
+    RewriteCond %{QUERY_STRING} transport=websocket    [NC]
+    RewriteRule /(.*)           ws://localhost:58008/$1 [P,L]
+
+    ProxyPass        / http://localhost:58008/
+    ProxyPassReverse / http://localhost:58008/
+</VirtualHost>

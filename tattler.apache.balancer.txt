@@ -1,0 +1,36 @@
+<VirtualHost *:80>
+    ServerAdmin webmaster@localhost
+    ServerName tattler.app
+
+    LogLevel debug
+    ErrorLog "/var/log/apache2/tattler_error.log"
+    CustomLog "/var/log/apache2/tattler_access.log" combined
+
+    # a2enmod proxy_wstunnel
+    # a2enmod lbmethod_bytraffic
+    # ls /etc/apache2/mods-available/| grep lbmethod
+
+    ##############
+    <Proxy balancer://http-localhost/>
+        BalancerMember http://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
+        BalancerMember http://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
+        ProxySet lbmethod=bytraffic
+    </Proxy>
+
+    <Proxy balancer://ws-localhost/>
+        BalancerMember ws://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
+        BalancerMember ws://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
+        ProxySet lbmethod=bytraffic
+    </Proxy>
+    ##############
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI}  ^/socket.io                [NC]
+    RewriteCond %{QUERY_STRING} transport=websocket        [NC]
+    RewriteRule /(.*)           balancer://ws-localhost/$1 [P,L]
+
+    ProxyPass        / balancer://http-localhost/
+    ProxyPassReverse / balancer://http-localhost/
+
+
+</VirtualHost>
