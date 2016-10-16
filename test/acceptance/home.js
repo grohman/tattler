@@ -17,13 +17,13 @@ describe('home document', function() {
 
   it('responds to / with a 200 OK', function(done) {
     request(app)
-      .get('/')
+      .getRooms('/')
       .expect(200, done);
   });
 
   it('should have proper headers', function(done) {
     request(app)
-      .get('/')
+      .getRooms('/')
       .expect(200,done)
       .expect(function(res){
         res.headers.should.have.properties(['content-type','etag']);
@@ -32,7 +32,7 @@ describe('home document', function() {
 
   it('should have proper uber+json content-type', function(done) {
     request(app)
-      .get('/')
+      .getRooms('/')
       .expect(200,done)
       .expect(function(res){
         res.headers['content-type'].should.equal('application/vnd.uber+json; charset=utf-8');
@@ -41,7 +41,7 @@ describe('home document', function() {
 
   it('response body should be a valid uber document', function(done) {
     request(app)
-      .get('/')
+      .getRooms('/')
       .expect(200,done)
       .expect(function(res){
         res.body.should.have.properties(['uber']);

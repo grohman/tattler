@@ -17,8 +17,12 @@ exports.setup = function(runningApp, callback) {
   //---- See: http://expressjs.com/guide/routing.html and http://vimeo.com/56166857
   // runningApp.use('/hello', require('hello')); // attach to sub-route
 
+  var sio = require('socket.io');
+  var tattler = require('Tattler');
+  tattler.socket(sio(runningApp.http));
+
   // API endpoint attached to root route:
-  runningApp.use('/', require('tattler')); // attach to root route
+  runningApp.use('/tattler', tattler); // attach to root route
 
   // If you need websockets:
   // var socketio = require('socket.io')(runningApp.http);
