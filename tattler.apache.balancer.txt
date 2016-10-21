@@ -12,8 +12,8 @@
 
     ##############
     <Proxy balancer://http-localhost/>
-        BalancerMember http://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
-        BalancerMember http://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
+        BalancerMember http://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900 route=1
+        BalancerMember http://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900 route=2
         ProxySet lbmethod=bytraffic
     </Proxy>
 
@@ -24,12 +24,14 @@
     </Proxy>
     ##############
 
+    Header add Set-Cookie "ROUTEID=.%{BALANCER_WORKER_ROUTE}e; path=/" env=BALANCER_ROUTE_CHANGED
+
     RewriteEngine On
     RewriteCond %{REQUEST_URI}  ^/socket.io                [NC]
     RewriteCond %{QUERY_STRING} transport=websocket        [NC]
     RewriteRule /(.*)           balancer://ws-localhost/$1 [P,L]
 
-    ProxyPass        / balancer://http-localhost/
+    ProxyPass        / balancer://http-localhost/ stickysession=ROUTEID
     ProxyPassReverse / balancer://http-localhost/
 
 
