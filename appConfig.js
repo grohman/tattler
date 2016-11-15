@@ -11,7 +11,7 @@ exports.setup = function(runningApp, callback) {
 
   var sio = require('socket.io');
   var sioRedis = require('socket.io-redis');
-  var tattler = require('Tattler');
+  var tattler = require('tattler');
 
   tattler.socket(sio(runningApp.http), sioRedis({host: conf.redis.host, port: conf.redis.port}));
 
