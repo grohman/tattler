@@ -1,17 +1,19 @@
 https://www.websequencediagrams.com/
 
- http://www.websequencediagrams.com/cgi-bin/cdraw?lz=dGl0bGUgVGF0dGxlcgogVXNlci0-UGhwOiBHZXQgV1MsIHNldCBzZXNzaW9uSWQKIG5vdGUgcmlnaHQgb2YAKwU6IGFqYXgAEwdsZWYAFAUAPgVyZW1lbWJlcgA0DABcBldzOiBjb25uZWN0ACoPV3M6IGdldCBzb2NrZXQAKAoAgQ8Fc2VuZCByb29tcyByZXF1ZXN0ICYmACIJAAcFAHQ2dmFsaWRhdGUAVgdhY2Nlc3MKIFBocACBJgZzdG9yZQCBfQoAagwsIG1hawAyBwCBUwxzdWJzY3JpYmUgdG8AFghXcy0-AIItBmpvaW4AZQhsbG93ZWQgYnkgUGhwAIIWDGRhbmNl&s=default
+https://www.websequencediagrams.com/cgi-bin/cdraw?lz=IHRpdGxlIFRhdHRsZXIKIFVzZXItPlBocDogZ2V0IEpXVAAHDUdldCBXUywgc2V0IHNlc3Npb25JZAogbm90ZSByaWdodCBvZgA_BTogYWpheAATB2xlZgAUBQBSBXJlbWVtYmVyACAgaW5jbHVkZSBKV1QgdG9rZW4AgRUIV3M6IGNvbm5lY3QAUQ9XcwCBMAZzb2NrZXRJZACBQg1zZW5kIHJvb21zIHJlcXVlc3QgJiYAIgkABwUAgRs2dmFsaWRhdGUAVgdhY2Nlc3MKIFBocACBJgZzdG9yZQCCJAoAagwsIG1hawAyBwCBUwxzdWJzY3JpYmUgdG8AFghXcy0-AIJUBmpvaW4AZQhsbG93ZWQgYnkgUGhwAIIWDGRhbmNlCg&s=default
 
- title Tattler
- User->Php: Get WS, set sessionId
- note right of User: ajax
- note left of Php: remember sessionId
- User->Ws: connect
- note left of Ws: get socketId
- User->Php: send rooms request && socketId && sessionId
- note right of User: ajax
- note left of Php: validate rooms access
- Php->Ws: store sessionId && socketId, make rooms
- User->Ws: subscribe to rooms
- Ws->User: join rooms allowed by Php
- User->Ws: dance
+title Tattler
+User->Php: get JWT
+User->Php: Get WS, set sessionId
+note right of User: ajax
+note left of Php: remember sessionId
+note right of User: include JWT token
+User->Ws: connect
+note left of Ws: get socketId
+User->Php: send rooms request && socketId && sessionId
+note right of User: ajax
+note left of Php: validate rooms access
+Php->Ws: store sessionId && socketId, make rooms
+User->Ws: subscribe to rooms
+Ws->User: join rooms allowed by Php
+User->Ws: dance

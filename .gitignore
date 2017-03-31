@@ -126,3 +126,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+config/development.yml
+config/production.yml

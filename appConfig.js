@@ -11,9 +11,14 @@ exports.setup = function(runningApp, callback) {
 
   var sio = require('socket.io');
   var sioRedis = require('socket.io-redis');
+  var jwt = require('socketio-jwt');
   var tattler = require('tattler');
 
-  tattler.socket(sio(runningApp.http), sioRedis({host: conf.redis.host, port: conf.redis.port}));
+  tattler.socket(
+      sio(runningApp.http), 
+      sioRedis({host: conf.redis.host, port: conf.redis.port}),
+      jwt
+  );
 
   // API endpoint attached to root route:
   runningApp.use('/tattler', tattler); // attach to root route

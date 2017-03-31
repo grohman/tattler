@@ -24,9 +24,10 @@
     "metalogger": "*",
     "nodebootstrap-htmlapp": "*",
     "nodebootstrap-server": "*",
-    "yaml": "*",
     "socket.io": "latest",
-    "socket.io-redis": "latest"
+    "socket.io-redis": "latest",
+    "socketio-jwt": "^4.5.0",
+    "yaml": "*"
   },
   "devDependencies": {
     "after": "^0.8.1",
