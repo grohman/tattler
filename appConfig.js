@@ -19,11 +19,14 @@ exports.setup = function(runningApp, callback) {
       sioRedis({host: conf.redis.host, port: conf.redis.port}),
       jwt
   );
-
+    
   // API endpoint attached to root route:
   runningApp.use('/tattler', tattler); // attach to root route
-
-
+	
+  runningApp.use('/', function (req, res) {
+      res.send('OK');
+  });
+  
   if(typeof callback === 'function') {
     callback(runningApp);
   }
