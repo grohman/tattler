@@ -1,6 +1,5 @@
 #!/bin/bash
 sudo npm install supervisor -g
-sudo npm install bower -g
 sudo npm install forever -g
 npm install
 chmod u+x ./bin/start.sh
