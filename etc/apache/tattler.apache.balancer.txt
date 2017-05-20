@@ -13,13 +13,11 @@
     ##############
     <Proxy balancer://http-localhost/>
         BalancerMember http://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900 route=1
-        BalancerMember http://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900 route=2
         ProxySet lbmethod=bytraffic
     </Proxy>
 
     <Proxy balancer://ws-localhost/>
         BalancerMember ws://localhost:58008 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
-        BalancerMember ws://localhost:58009 keepalive=On smax=1 connectiontimeout=10 retry=600 timeout=900 ttl=900
         ProxySet lbmethod=bytraffic
     </Proxy>
     ##############
