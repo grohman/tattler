@@ -1,5 +1,5 @@
 {
-  "name": "Tattler",
+  "name": "tattler",
   "description": "Tattler backend",
   "author": "Daniel Podrabinek",
   "license": "MIT",
@@ -12,17 +12,19 @@
     "node": ">=0.12.0"
   },
   "dependencies": {
+    "@socket.io/redis-adapter": "^8.3.0",
     "app-module-path": "^1.0.4",
     "body-parser": "^1.14.1",
+    "cluster": "^0.7.7",
     "config": "*",
-    "express": "^4.11.0",
+    "express": "4.19.2",
     "js-yaml": "^4.1.0",
     "metalogger": "*",
     "net": "^1.0.2",
-    "socket.io": "^2.0.4",
-    "socket.io-redis": "^5.2.0",
-    "socketio-jwt": "^4.5.0",
-    "yaml": "*"
+    "redis": "4.7.0",
+    "socket.io": "4.7.5",
+    "socketio-jwt": "^4.6.2",
+    "yaml": "^2.5.0"
   },
   "scripts": {
     "start": "./bin/start.sh",
