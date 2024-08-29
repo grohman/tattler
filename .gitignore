@@ -126,5 +126,5 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
-config/development.yaml
-config/production.yaml
+config/development*.json
+config/production*.json

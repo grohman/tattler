@@ -1,0 +1,13 @@
+{
+	"app": {
+		"port": 58008,
+		"pub_dir": "/public"
+	},
+	"redis": {
+		"host": "localhost",
+		"port": 6379
+	},
+	"jwt": {
+		"token": "this_is_not_my_secret_token"
+	}
+}
