@@ -9,7 +9,7 @@ config/runtime.json
 
 ### Node template
 # Logs
-logs
+log
 *.log
 npm-debug.log*
 
