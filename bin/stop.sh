@@ -1,7 +1,7 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
-# Ensure NODE_LAUNCH_SCRIPT is set to your main script file
-NODE_LAUNCH_SCRIPT=${NODE_LAUNCH_SCRIPT:-server.js}
+if [ !$NODE_LAUNCH_SCRIPT ]; then
+  export NODE_LAUNCH_SCRIPT="$PWD/server.js"
+fi
 
-# Stop the app with PM2
-pm2 stop tattler
+forever stop $NODE_LAUNCH_SCRIPT
