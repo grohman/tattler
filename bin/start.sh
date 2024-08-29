@@ -97,7 +97,6 @@ fi
 if [ $NODE_HOT_RELOAD -eq 0 ]; then
     NCMD="forever start"
     NCMD="$NCMD -a"
-    NCMD="$NCMD -c \"node --no-warnings\""
     NCMD="$NCMD -l $NODE_LOG_DIR/websocket.log"
     NCMD="$NCMD -o $NODE_LOG_DIR/websocket.log"
     NCMD="$NCMD -e $NODE_LOG_DIR/websocket.log"
