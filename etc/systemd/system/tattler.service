@@ -1,28 +1,33 @@
 [Unit]
-Description=Tattler Node.js Websocket Serer
+Description=Tattler Node.js Websocket Server
 After=network.target
 
 [Service]
-ExecStart=/usr/local/share/tattler/bin/start.sh
+Type=simple
+User=ubuntu
+Group=ubuntu
 WorkingDirectory=/usr/local/share/tattler
-Environment=NODE_ENV=production
-Environment=NODE_CONFIG_DIR=/usr/local/share/tattler/config
-Environment=NODE_LOG_DIR=/usr/local/share/tattler/logs
-Environment=NODE_CONFIG_DISABLE_FILE_WATCH=Y
-Environment=NODE_CLUSTERED=1
-Environment=NODE_SERVE_STATIC=1
-Environment=NODE_HOT_RELOAD=0
+ExecStart=/usr/bin/node /usr/local/share/tattler/server.js
 Restart=always
-User=nobody
-Group=nobody
+RestartSec=10s
+StartLimitInterval=500s
+StartLimitBurst=5
 
-StandardOutput=file:/usr/local/share/tattler/logs/out.log
-StandardError=file:/usr/local/share/tattler/logs/err.log
+Environment=NODE_ENV=production
+Environment=NODE_CONFIG_DISABLE_FILE_WATCH="Y"
+Environment=NODE_LOGGER_LEVEL='notice'
+Environment=NODE_LOGGER_PLUGIN='util'
+Environment=NODE_LOGGER_GRANULARLEVELS=0
+Environment=NODE_LAUNCH_SCRIPT=/usr/local/share/tattler/server.js
+Environment=NODE_CLUSTERED=1
+Environment=NODE_HOT_RELOAD=0
+Environment=NODE_CONFIG_DIR=/usr/local/share/tattler/config
+Environment=NODE_LOG_DIR=/var/log/tattler
 
-Environment=PATH=/usr/bin:/usr/local/bin
-Environment=NODE_PATH=/usr/lib/node_modules
+# Redirect output to log files
+StandardOutput=file:/var/log/tattler/websocket.log
+StandardError=file:/var/log/tattler/websocket.log
 
-ExecStop=/usr/bin/pm2 stop tattler
 
 [Install]
 WantedBy=multi-user.target
