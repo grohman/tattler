@@ -1,7 +1,10 @@
 #!/usr/bin/env sh
 
+
+cd "$(dirname "$0")"/..
+
 if [ ! -d "$PWD/node_modules" ]; then
-  echo "Please run the shell script from the project's root folder"
+  echo "Please run the setup script from the project's root folder"
   exit 1
 fi
 
